@@ -1,14 +1,16 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDmWI_SeM88SrHalwbalyD2gjwxAnvruFE",
-  authDomain: "messages-app-a09e6.firebaseapp.com",
-  projectId: "messages-app-a09e6",
-  storageBucket: "messages-app-a09e6.appspot.com",
-  messagingSenderId: "727192513214",
-  appId: "1:727192513214:web:5bfb3638281b873e30ccef",
+  apiKey: "AIzaSyDt2eJ3BYj4jsyC56jbOIj5WfeULnejA-k",
+  authDomain: "lab5ver2react.firebaseapp.com",
+  projectId: "lab5ver2react",
+  storageBucket: "lab5ver2react.appspot.com",
+  messagingSenderId: "1040752326469",
+  appId: "1:1040752326469:web:e8ed4b6984476dcd27302c",
+  measurementId: "G-YCENNWRX2Y"
 };
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
+const analytics = getAnalytics(app);
+
 export { auth, app };

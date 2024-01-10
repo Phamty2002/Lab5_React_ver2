@@ -1,4 +1,4 @@
-import Exercise0_1 from "./Exercise0.1/index.js";
+import Exercise0_1 from "./Exercise1/index.js";
 import Exercise0_2 from "./Exercise0.2/index.js";
 
 function App() {
